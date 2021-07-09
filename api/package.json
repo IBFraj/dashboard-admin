@@ -1,0 +1,43 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "supervisor ./app.js",
+    "test": "mocha --exit "
+  },
+  "dependencies": {
+    "@ionic-native/network": "^4.20.0",
+    "bcrypt": "^3.0.8",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "file-type": "^10.9.0",
+    "fs": "0.0.1-security",
+    "generate-serial-key": "^2.0.0",
+    "http-errors": "^1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "mongoose": "^5.3.15",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.1",
+    "nodemailer": "^4.7.0",
+    "path": "^0.12.7",
+    "pdfmake": "^0.1.56",
+    "randomstring": "^1.1.5",
+    "secure-pin": "^1.0.14"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "mocha": "^5.2.0"
+  }
+}

@@ -1,0 +1,1 @@
+exports.CheckAuth = require('./check-auth');
